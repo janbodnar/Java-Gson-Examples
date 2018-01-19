@@ -33,7 +33,7 @@ class Car {
     }
 }
 
-public class GsonDataBindingApiRead {
+public class GsonDataBinApiRead {
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
         
