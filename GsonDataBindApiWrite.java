@@ -43,5 +43,7 @@ public class GsonDataBindApiWrite {
             Gson gson = new Gson();
             gson.toJson(cars, writer);
         }
+        
+        System.out.println("Cars written to file");
     }
 }
