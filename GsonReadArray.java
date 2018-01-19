@@ -40,9 +40,9 @@ public class GsonReadArray {
         try (Reader reader = Files.newBufferedReader(path, 
                 StandardCharsets.UTF_8)) {
             
-            User[] items = gson.fromJson(reader, User[].class);
+            User[] users = gson.fromJson(reader, User[].class);
             
-            Arrays.stream(items).forEach( e -> {
+            Arrays.stream(users).forEach( e -> {
                 System.out.println(e);
             });
         }
