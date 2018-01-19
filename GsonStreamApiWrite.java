@@ -31,5 +31,7 @@ public class GsonStreamApiWrite {
             
             writer.endObject();
         } 
+        
+        System.out.println("Items written to file");
     }
 }
